@@ -1,0 +1,23 @@
+## master 数据源配置
+spring:
+  datasource:
+    master:
+      url: jdbc:mysql://localhost:3306/springbootdb?useUnicode=true&characterEncoding=utf8
+      username: root
+      password: 123456
+      driverClassName: com.mysql.jdbc.Driver
+    cluster:
+      url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8
+      username: root
+      password: 123456
+      driverClassName: com.mysql.jdbc.Driver
+#masterdatasource.url=jdbc:mysql://localhost:3306/springbootdb?useUnicode=true&characterEncoding=utf8
+#master.datasource.username=root
+#master.datasource.password=123456
+#master.datasource.driverClassName=com.mysql.jdbc.Driver
+
+## cluster 数据源配置
+#cluster.datasource.url=jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8
+#cluster.datasource.username=root
+#cluster.datasource.password=123456
+#cluster.datasource.driverClassName=com.mysql.jdbc.Driver
